@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website Content QA</title>
+  <style>
+    body {
+      width: 350px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    #crawlBtn {
+      margin-bottom: 10px;
+      padding: 8px;
+      width: 100%;
+      background-color: #4285f4;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    #question {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+    #askBtn {
+      padding: 8px;
+      width: 100%;
+      background-color: #34a853;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    #result {
+      margin-top: 15px;
+      padding: 10px;
+      background-color: #f1f1f1;
+      border-radius: 4px;
+      max-height: 300px;
+      overflow-y: auto;
+    }
+    #status {
+      color: #666;
+      font-style: italic;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Web Wisper</h2>
+  <div id="status">Not crawled yet</div>
+  <button id="crawlBtn">Crawl Current Page</button>
+  <input type="text" id="question" placeholder="Ask a question about this website...">
+  <button id="askBtn">Ask Question</button>
+  <div id="result"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
