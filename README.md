@@ -1,4 +1,4 @@
-### 🕸️ Web Page QA Extension
+### 🕸️ Webwisper (Web Page QA Extension)
 This browser extension allows users to extract content from any webpage, convert it into vector embeddings, and ask questions directly about the page using the Groq API.
 
 ### 🚀 Features
